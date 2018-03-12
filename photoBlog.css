@@ -1,18 +1,40 @@
+
 img {
     float: left;
     width: 30%;
     margin: 1.66% 1.66%;
 }
 
-p {
+h1 {
     
     font-family: 'Lato', sans-serif;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: bolder;
     border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 4px;
+    width: 31.66%;
 }
-.headbar {
-    width: 30%;
-    margin-left: 1.66%;
+
+h1:hover {
+    color: darkred;
+}
+#footer {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: -920px;
+}
+ul {
+    text-align: center;
+}
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+li a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: lightgray;
 }
